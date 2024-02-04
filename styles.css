@@ -1,0 +1,67 @@
+body{
+  text-align: center;
+  background-color: #B5CB99;
+  background-image: url("images/piano.jpg");
+}
+/* background-image:url("images/download.jpeg"); */
+
+h1{
+  font-size: 5rem;
+  font-family: fantasy;
+  color: #C6A969;
+  text-shadow: 3px 3px green;
+}
+
+
+.A{
+  background-image: url("images/note1.jpeg");
+}
+
+.S{
+  background-image: url("images/note2.jpeg");
+}
+.D{
+  background-image: url("images/note3.jpeg");
+}
+.F{
+  background-image: url("images/note4.jpeg");
+}
+.H{
+  background-image: url("images/note5.jpeg");
+}
+.J{
+  background-image: url("images/note6.jpeg");
+}
+.K{
+  background-image: url("images/note7.jpeg");
+}
+.L{
+  background-image: url("images/note8.jpeg");
+}
+
+
+
+.piano-buttons{
+  margin:5% auto;
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+   }
+}
+.tone{
+   outline:none;
+   border: 10px solid #662549;
+   font-size: 10rem;
+   /* margin-right:30px; */
+   line-height: 1 ;
+   font-weight: 600;
+   color: #860A35;
+   border-radius:14px;
+   text-shadow: 3px 0 #DBEDF3;
+   display:inline-block;
+   width: 150px;
+   height: 200px;
+   margin: 5px;
+   background-color: white;
+}
